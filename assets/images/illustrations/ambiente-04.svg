@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ilustração conceitual de área externa com luzes ao anoitecer">
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1E1B17"/><stop offset="1" stop-color="#3A4332"/></linearGradient>
+    <radialGradient id="l"><stop offset="0" stop-color="#F2D3A0" stop-opacity=".9"/><stop offset="1" stop-color="#F2D3A0" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#s)"/>
+  <path d="M0 220C300 340 600 340 800 240S1300 150 1600 260" fill="none" stroke="#29251F" stroke-width="3"/>
+  <g fill="url(#l)"><circle cx="150" cy="268" r="40"/><circle cx="400" cy="318" r="40"/><circle cx="650" cy="320" r="40"/><circle cx="880" cy="262" r="40"/><circle cx="1130" cy="205" r="40"/><circle cx="1400" cy="228" r="40"/></g>
+  <g fill="#F2D3A0"><circle cx="150" cy="268" r="8"/><circle cx="400" cy="318" r="8"/><circle cx="650" cy="320" r="8"/><circle cx="880" cy="262" r="8"/><circle cx="1130" cy="205" r="8"/><circle cx="1400" cy="228" r="8"/></g>
+  <rect y="620" width="1600" height="280" fill="#2B2118"/>
+  <g fill="#3F5232"><circle cx="90" cy="600" r="120"/><circle cx="220" cy="640" r="90"/><circle cx="1500" cy="590" r="130"/><circle cx="1380" cy="650" r="90"/></g>
+  <g fill="#6B5239">
+    <ellipse cx="480" cy="640" rx="130" ry="22"/><ellipse cx="900" cy="660" rx="150" ry="26"/><ellipse cx="1180" cy="640" rx="120" ry="20"/>
+  </g>
+  <g stroke="#6B5239" stroke-width="10"><path d="M480 660V780M900 686V820M1180 660V780"/></g>
+  <g fill="#F2D3A0"><circle cx="480" cy="624" r="7"/><circle cx="900" cy="640" r="7"/><circle cx="1180" cy="626" r="7"/></g>
+</svg>

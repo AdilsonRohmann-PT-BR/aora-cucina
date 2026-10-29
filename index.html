@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aora Cucina · Demonstração conceitual de site | Porto Alegre, RS</title>
+  <meta name="description" content="Demonstração conceitual e independente de uma presença digital para o Aora Cucina, restaurante italiano no 4º Distrito de Porto Alegre, RS. Não é o site oficial do estabelecimento.">
+  <!-- Projeto demonstrativo: não indexar. Remova esta linha apenas se o site for oficializado. -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#343B2D">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Aora Cucina · Demonstração conceitual">
+  <meta property="og:description" content="Proposta independente de site para um restaurante italiano em Porto Alegre, RS.">
+  <!-- TODO: adicionar og:image e og:url quando houver foto autorizada e endereço de publicação definido -->
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23343B2D'/%3E%3Ctext x='32' y='44' font-size='36' text-anchor='middle' fill='%23B58A5A' font-family='Georgia,serif'%3EA%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="demo-bar" role="note">
+    Demonstração conceitual · Proposta comercial independente · Não é o site oficial do Aora Cucina
+  </div>
+
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Aora Cucina, ir para o início">
+        <span class="brand__mark" aria-hidden="true">A</span>
+        <span class="brand__name">Aora <em>Cucina</em></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+        <span class="visually-hidden">Abrir menu</span>
+      </button>
+
+      <nav class="site-nav" id="menu-principal" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#cozinha">Cozinha</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#ambiente">Ambiente</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <!-- href="#reservas" é o plano B sem JavaScript; o script troca por wa.me -->
+          <li><a class="btn btn--small btn--gold" href="#reservas" data-wa>Reservar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" tabindex="-1">
+
+    <!-- HERO -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="hero__media photo">
+        <img src="assets/images/illustrations/hero.svg"
+             data-photo="assets/images/photos/hero.jpg"
+             data-photo-alt="Fotografia ilustrativa de massa fresca servida à mesa"
+             width="1600" height="900" alt="" fetchpriority="high">
+        <span class="photo__badge">Ilustração conceitual · não é foto do restaurante</span>
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <p class="eyebrow eyebrow--light">Cozinha italiana · 4º Distrito · Porto Alegre, RS</p>
+        <h1 id="hero-titulo">Aora <em>Cucina</em></h1>
+        <p class="hero__lead">Uma casa da década de 1940 no São Geraldo, cozinha aberta e massas feitas todos os dias. Esta demonstração mostra como o restaurante poderia ter uma presença digital própria, elegante e pronta para receber reservas.</p>
+        <div class="hero__actions">
+          <a class="btn btn--gold" href="#reservas" data-wa>Reservar pelo WhatsApp</a>
+          <a class="btn btn--ghost" href="#cardapio">Ver cardápio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- COZINHA -->
+    <section class="section" id="cozinha" aria-labelledby="cozinha-titulo">
+      <div class="container split">
+        <div class="split__text reveal">
+          <p class="eyebrow">A cozinha italiana</p>
+          <h2 id="cozinha-titulo">Poucos ingredientes, <em>muito cuidado</em></h2>
+          <p>O Aora Cucina funciona em uma casa da década de 1940, no bairro São Geraldo, em Porto Alegre. Segundo matérias e guias públicos, as massas são produzidas artesanalmente todos os dias, no próprio espaço, com ingredientes orgânicos, e a cozinha aberta deixa a produção à vista de quem está à mesa.</p>
+          <p>A massa fresca é parte central da linguagem italiana à mesa. Feita com farinha e ovos, ou com semolina e água, ganha textura e sabor próprios e pede molhos que a acompanhem sem esconder. O risoto segue a mesma lógica: arroz, caldo e tempo, até o ponto cremoso.</p>
+          <p class="source-note">Fontes: QuintoAndar, Wanderlog e Porto Alegre Film Commission. Informações descritivas a validar com o restaurante.</p>
+        </div>
+
+        <figure class="split__media reveal">
+          <div class="duo">
+            <span class="photo photo--tall">
+              <img src="assets/images/illustrations/massa.svg"
+                   data-photo="assets/images/photos/massa.jpg"
+                   data-photo-alt="Fotografia ilustrativa de massa fresca sobre tábua de madeira"
+                   width="900" height="1125" alt="Ilustração conceitual: fitas de massa fresca sobre tábua de madeira" loading="lazy">
+              <span class="photo__badge">Ilustração conceitual</span>
+            </span>
+            <span class="photo photo--sq">
+              <img src="assets/images/illustrations/risoto.svg"
+                   data-photo="assets/images/photos/risoto.jpg"
+                   data-photo-alt="Fotografia ilustrativa de risoto cremoso"
+                   width="1000" height="1000" alt="Ilustração conceitual: prato de risoto cremoso visto de cima" loading="lazy">
+            </span>
+          </div>
+          <figcaption class="duo__cap">Imagens ilustrativas. Não representam pratos ou ambientes do restaurante.</figcaption>
+        </figure>
+      </div>
+
+      <div class="container pillars">
+        <article class="pillar reveal">
+          <h3>Massa feita todos os dias</h3>
+          <p>Produção artesanal no próprio espaço, com ingredientes orgânicos, segundo fontes públicas.</p>
+        </article>
+        <article class="pillar reveal">
+          <h3>Cozinha aberta</h3>
+          <p>No andar de baixo, o preparo dos pratos acontece à vista de quem está no salão.</p>
+        </article>
+        <article class="pillar reveal">
+          <h3>Casa com história</h3>
+          <p>Um casarão da década de 1940 no 4º Distrito, com tijolos aparentes e mezanino.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CARDÁPIO -->
+    <section class="section section--alt" id="cardapio" aria-labelledby="cardapio-titulo">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Cardápio</p>
+          <h2 id="cardapio-titulo">Escolha por <em>categoria</em></h2>
+          <p class="section-head__note">Pratos citados em fontes públicas sobre o restaurante, para demonstrar a navegação. O cardápio oficial, a disponibilidade e os valores devem ser confirmados com o Aora Cucina.</p>
+        </header>
+
+        <div class="filters" role="group" aria-label="Filtrar cardápio por categoria" id="menu-filters"></div>
+        <p class="visually-hidden" id="menu-status" role="status" aria-live="polite"></p>
+        <ul class="menu-grid" id="menu-list"></ul>
+        <p class="menu-note">Valores não exibidos: a confirmar com o restaurante.</p>
+      </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="section" id="ambiente" aria-labelledby="ambiente-titulo">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Ambiente</p>
+          <h2 id="ambiente-titulo">O espaço, <em>em imagens</em></h2>
+          <p class="section-head__note">Ilustrações conceituais inspiradas em características descritas em fontes públicas: tijolos aparentes, cozinha aberta, mezanino e área externa. <strong>Não são fotos do restaurante.</strong> Clique para ampliar; use as setas do teclado para navegar e Esc para fechar.</p>
+        </header>
+
+        <ul class="gallery" id="gallery">
+          <li class="gallery__cell">
+            <button class="gallery__item" type="button" data-caption="Parede de tijolos e luminária" aria-label="Ampliar imagem: parede de tijolos e luminária">
+              <span class="photo">
+                <img src="assets/images/illustrations/ambiente-01.svg" data-photo="assets/images/photos/ambiente-01.jpg" data-photo-alt="Fotografia ilustrativa de parede de tijolos com luminária" width="900" height="1200" alt="Ilustração conceitual de parede de tijolos aparentes com luminária" loading="lazy">
+                <span class="photo__badge">Ilustração conceitual</span>
+              </span>
+            </button>
+          </li>
+          <li class="gallery__cell">
+            <button class="gallery__item" type="button" data-caption="Mesa posta" aria-label="Ampliar imagem: mesa posta">
+              <span class="photo">
+                <img src="assets/images/illustrations/ambiente-02.svg" data-photo="assets/images/photos/ambiente-02.jpg" data-photo-alt="Fotografia ilustrativa de mesa posta para jantar" width="1200" height="900" alt="Ilustração conceitual de mesa posta vista de cima" loading="lazy">
+                <span class="photo__badge">Ilustração conceitual</span>
+              </span>
+            </button>
+          </li>
+          <li class="gallery__cell">
+            <button class="gallery__item" type="button" data-caption="Cozinha aberta" aria-label="Ampliar imagem: cozinha aberta">
+              <span class="photo">
+                <img src="assets/images/illustrations/ambiente-03.svg" data-photo="assets/images/photos/ambiente-03.jpg" data-photo-alt="Fotografia ilustrativa de cozinha aberta de restaurante" width="1200" height="900" alt="Ilustração conceitual de cozinha aberta com balcão" loading="lazy">
+                <span class="photo__badge">Ilustração conceitual</span>
+              </span>
+            </button>
+          </li>
+          <li class="gallery__cell">
+            <button class="gallery__item" type="button" data-caption="Área externa ao anoitecer" aria-label="Ampliar imagem: área externa ao anoitecer">
+              <span class="photo">
+                <img src="assets/images/illustrations/ambiente-04.svg" data-photo="assets/images/photos/ambiente-04.jpg" data-photo-alt="Fotografia ilustrativa de área externa de restaurante à noite" width="1600" height="900" alt="Ilustração conceitual de área externa com luzes ao anoitecer" loading="lazy">
+                <span class="photo__badge">Ilustração conceitual</span>
+              </span>
+            </button>
+          </li>
+          <li class="gallery__cell">
+            <button class="gallery__item" type="button" data-caption="Mezanino com mesas para grupos" aria-label="Ampliar imagem: mezanino com mesas para grupos">
+              <span class="photo">
+                <img src="assets/images/illustrations/ambiente-05.svg" data-photo="assets/images/photos/ambiente-05.jpg" data-photo-alt="Fotografia ilustrativa de mezanino com mesas longas" width="1200" height="900" alt="Ilustração conceitual de mezanino com duas mesas longas" loading="lazy">
+                <span class="photo__badge">Ilustração conceitual</span>
+              </span>
+            </button>
+          </li>
+          <li class="gallery__cell">
+            <button class="gallery__item" type="button" data-caption="Vinhos e taças" aria-label="Ampliar imagem: vinhos e taças">
+              <span class="photo">
+                <img src="assets/images/illustrations/ambiente-06.svg" data-photo="assets/images/photos/ambiente-06.jpg" data-photo-alt="Fotografia ilustrativa de adega e taças de vinho" width="1200" height="900" alt="Ilustração conceitual de adega com garrafas e taças" loading="lazy">
+                <span class="photo__badge">Ilustração conceitual</span>
+              </span>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <dialog class="lightbox" id="lightbox" aria-label="Visualização ampliada da galeria">
+        <button class="lightbox__btn lightbox__close" type="button" aria-label="Fechar visualização">&times;</button>
+        <button class="lightbox__btn lightbox__prev" type="button" aria-label="Imagem anterior">&#8249;</button>
+        <figure class="lightbox__figure">
+          <div class="lightbox__media" id="lightbox-media"></div>
+          <figcaption id="lightbox-caption"></figcaption>
+        </figure>
+        <button class="lightbox__btn lightbox__next" type="button" aria-label="Próxima imagem">&#8250;</button>
+      </dialog>
+    </section>
+
+    <!-- RESERVAS -->
+    <section class="section section--dark" id="reservas" aria-labelledby="reservas-titulo">
+      <div class="container reserve">
+        <div class="reserve__intro reveal">
+          <p class="eyebrow eyebrow--light">Reservas</p>
+          <h2 id="reservas-titulo">Reserve sua <em>mesa</em></h2>
+          <p>O restaurante recebe reservas por mensagem de texto no WhatsApp. Preencha o formulário para montar a mensagem, ou abra a conversa diretamente.</p>
+          <p class="reserve__cta">
+            <a class="btn btn--ghost" href="#reservas" data-wa>Abrir conversa no WhatsApp</a>
+          </p>
+          <p class="reserve__status" id="wa-config-note"></p>
+        </div>
+
+        <form class="form reveal" id="reserve-form" novalidate>
+          <div class="field">
+            <label for="f-nome">Nome</label>
+            <input id="f-nome" name="nome" type="text" autocomplete="name" required>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-data">Data</label>
+              <input id="f-data" name="data" type="date" required>
+            </div>
+            <div class="field">
+              <label for="f-hora">Horário</label>
+              <input id="f-hora" name="hora" type="time" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-pessoas">Número de pessoas</label>
+            <input id="f-pessoas" name="pessoas" type="number" min="1" inputmode="numeric" required>
+          </div>
+          <div class="field">
+            <label for="f-obs">Observações (opcional)</label>
+            <textarea id="f-obs" name="obs" rows="3"></textarea>
+          </div>
+          <button class="btn btn--gold" type="submit">Enviar pedido pelo WhatsApp</button>
+          <p class="form__msg" id="form-msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section" id="contato" aria-labelledby="contato-titulo">
+      <div class="container contact">
+        <div class="contact__info reveal">
+          <p class="eyebrow">Localização e contato</p>
+          <h2 id="contato-titulo">Venha <em>nos visitar</em></h2>
+
+          <dl class="info-list">
+            <div>
+              <dt>Endereço</dt>
+              <dd>Av. Pátria, 272 · São Geraldo (4º Distrito)<br>Porto Alegre, RS</dd>
+            </div>
+            <div>
+              <dt>Horários</dt>
+              <!-- Fonte: descrição da página oficial do restaurante no Facebook (consulta em out/2026). Confirmar antes de publicar. -->
+              <dd>
+                Terça a sexta: 19h às 23h<br>
+                Sábado: 12h às 15h e 19h às 23h<br>
+                Domingo e segunda: <span class="todo">[A CONFIRMAR]</span>
+              </dd>
+            </div>
+            <div>
+              <dt>WhatsApp · reservas</dt>
+              <dd><a href="tel:+5551991199387">(51) 99119-9387</a></dd>
+            </div>
+            <div>
+              <dt>E-mail</dt>
+              <dd><a href="mailto:aoracucina@gmail.com">aoracucina@gmail.com</a></dd>
+            </div>
+            <div>
+              <dt>Instagram</dt>
+              <dd><a href="https://www.instagram.com/aoracucina/" target="_blank" rel="noopener noreferrer">@aoracucina</a></dd>
+            </div>
+          </dl>
+
+          <a class="btn btn--olive" href="https://www.google.com/maps/search/?api=1&amp;query=Av.%20P%C3%A1tria%2C%20272%2C%20S%C3%A3o%20Geraldo%2C%20Porto%20Alegre%2C%20RS" target="_blank" rel="noopener noreferrer">Abrir no Google Maps</a>
+          <p class="small">Informações coletadas em fontes públicas. Confirme horários e canais com o restaurante.</p>
+        </div>
+
+        <div class="contact__map reveal">
+          <div class="map-frame">
+            <iframe title="Mapa: Av. Pátria, 272, São Geraldo, Porto Alegre"
+                    src="https://maps.google.com/maps?q=Av.%20P%C3%A1tria%2C%20272%2C%20S%C3%A3o%20Geraldo%2C%20Porto%20Alegre%2C%20RS&amp;output=embed"
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="brand__name brand__name--footer">Aora <em>Cucina</em></p>
+        <p class="small small--light">Av. Pátria, 272 · São Geraldo · Porto Alegre, RS</p>
+        <p class="small small--light"><a class="footer-link" href="https://www.instagram.com/aoracucina/" target="_blank" rel="noopener noreferrer">Instagram @aoracucina</a> · <a class="footer-link" href="mailto:aoracucina@gmail.com">aoracucina@gmail.com</a></p>
+      </div>
+      <nav aria-label="Navegação do rodapé">
+        <ul class="footer-nav">
+          <li><a href="#cozinha">Cozinha</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#ambiente">Ambiente</a></li>
+          <li><a href="#reservas">Reservas</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="#topo">Voltar ao topo</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container footer-legal">
+      <p>Projeto demonstrativo e conceitual, criado como proposta comercial independente. Não é o site oficial nem representa o estabelecimento. Nomes e marcas pertencem aos seus respectivos titulares. As imagens são ilustrações originais do projeto ou fotos identificadas como ilustrativas.</p>
+      <p>Fontes dos dados: Porto Alegre Film Commission, página do restaurante no Facebook, QuintoAndar e Wanderlog. Todos os dados devem ser validados com o restaurante antes de qualquer uso público.</p>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante: o script define o href e o exibe quando o número do WhatsApp está configurado -->
+  <a class="wa-float" id="wa-float" href="#reservas" target="_blank" rel="noopener noreferrer" hidden>
+    <span aria-hidden="true">&#9993;</span> WhatsApp
+  </a>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ilustração conceitual de uma mesa italiana com prato de massa">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#29251F"/><stop offset="1" stop-color="#343B2D"/></linearGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4A3A2B"/><stop offset="1" stop-color="#2B2118"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#E2C197" stop-opacity=".85"/><stop offset="1" stop-color="#B58A5A" stop-opacity="0"/></radialGradient>
+    <pattern id="brick" width="120" height="60" patternUnits="userSpaceOnUse">
+      <path d="M0 0H120M0 30H120M60 0V30M0 30V60M120 30V60" stroke="#F5F0E7" stroke-opacity=".07" stroke-width="2" fill="none"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="650" fill="url(#brick)"/>
+  <circle cx="1000" cy="200" r="190" fill="url(#glow)"/>
+  <circle cx="1380" cy="150" r="150" fill="url(#glow)"/>
+  <path d="M1000 0V125M1380 0V85" stroke="#B58A5A" stroke-width="3"/>
+  <path d="M940 180a60 60 0 0 1 120 0z" fill="#B58A5A"/>
+  <path d="M1325 140a55 55 0 0 1 110 0z" fill="#B58A5A"/>
+  <rect y="650" width="1600" height="250" fill="url(#table)"/>
+  <rect y="650" width="1600" height="3" fill="#B58A5A" opacity=".55"/>
+  <ellipse cx="1130" cy="800" rx="340" ry="62" fill="#000" opacity=".35"/>
+  <ellipse cx="1130" cy="765" rx="300" ry="78" fill="#F5F0E7"/>
+  <ellipse cx="1130" cy="760" rx="232" ry="56" fill="#E8E0D0"/>
+  <g fill="none" stroke-linecap="round">
+    <ellipse cx="1130" cy="752" rx="150" ry="42" stroke="#D9B27A" stroke-width="13"/>
+    <ellipse cx="1130" cy="738" rx="118" ry="34" stroke="#E3C08A" stroke-width="13"/>
+    <ellipse cx="1130" cy="724" rx="86" ry="26" stroke="#D9B27A" stroke-width="13"/>
+    <ellipse cx="1130" cy="710" rx="54" ry="18" stroke="#E3C08A" stroke-width="13"/>
+  </g>
+  <ellipse cx="1130" cy="700" rx="30" ry="11" fill="#A8462F"/>
+  <ellipse cx="1112" cy="690" rx="22" ry="9" fill="#5E7A3E" transform="rotate(-25 1112 690)"/>
+  <ellipse cx="1150" cy="688" rx="20" ry="8" fill="#6F8F4A" transform="rotate(20 1150 688)"/>
+  <path d="M1440 590c0 70 12 115 30 115s30-45 30-115z" fill="#F5F0E7" fill-opacity=".14" stroke="#F5F0E7" stroke-opacity=".6" stroke-width="2"/>
+  <path d="M1445 640c2 45 12 65 25 65s23-20 25-65z" fill="#7A2E2E"/>
+  <path d="M1470 705V800" stroke="#F5F0E7" stroke-opacity=".6" stroke-width="3"/>
+  <ellipse cx="1470" cy="803" rx="38" ry="8" fill="none" stroke="#F5F0E7" stroke-opacity=".6" stroke-width="2"/>
+</svg>

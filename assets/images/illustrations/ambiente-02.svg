@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ilustração conceitual de mesa posta vista de cima">
+  <defs>
+    <radialGradient id="c"><stop offset="0" stop-color="#F2D3A0" stop-opacity=".8"/><stop offset="1" stop-color="#F2D3A0" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="#4A3A2B"/>
+  <g stroke="#3A2C20" stroke-width="3" stroke-opacity=".6"><path d="M0 150H1200M0 300H1200M0 450H1200M0 600H1200M0 750H1200"/></g>
+  <rect x="130" y="110" width="940" height="680" rx="12" fill="#F5F0E7"/>
+  <rect x="130" y="110" width="940" height="680" rx="12" fill="none" stroke="#B58A5A" stroke-width="3" stroke-opacity=".6"/>
+  <g>
+    <circle cx="400" cy="450" r="150" fill="#FFFFFF" stroke="#D8CDB8" stroke-width="4"/>
+    <circle cx="400" cy="450" r="100" fill="#EFE8DA"/>
+    <circle cx="400" cy="450" r="52" fill="#D9B27A"/><circle cx="400" cy="450" r="30" fill="#E3C08A"/><circle cx="400" cy="450" r="10" fill="#A8462F"/>
+    <circle cx="800" cy="450" r="150" fill="#FFFFFF" stroke="#D8CDB8" stroke-width="4"/>
+    <circle cx="800" cy="450" r="100" fill="#EFE8DA"/>
+    <circle cx="800" cy="450" r="52" fill="#EAD9AE"/><circle cx="800" cy="450" r="26" fill="#FBF3DD"/>
+  </g>
+  <g fill="#8D8D8A">
+    <rect x="212" y="330" width="10" height="240" rx="5"/><rect x="570" y="340" width="10" height="220" rx="5"/>
+    <rect x="620" y="340" width="10" height="220" rx="5"/><rect x="978" y="330" width="10" height="240" rx="5"/>
+  </g>
+  <g fill="none" stroke="#343B2D" stroke-width="3" opacity=".6"><circle cx="600" cy="220" r="46"/><circle cx="600" cy="680" r="46"/></g>
+  <circle cx="600" cy="220" r="30" fill="#7A2E2E" opacity=".85"/><circle cx="600" cy="680" r="30" fill="#7A2E2E" opacity=".85"/>
+  <circle cx="600" cy="450" r="90" fill="url(#c)"/>
+  <circle cx="600" cy="450" r="20" fill="#B58A5A"/><circle cx="600" cy="450" r="9" fill="#F2D3A0"/>
+  <g fill="#5E7A3E"><ellipse cx="270" cy="170" rx="30" ry="11" transform="rotate(-25 270 170)"/><ellipse cx="320" cy="150" rx="28" ry="10" transform="rotate(15 320 150)"/><ellipse cx="920" cy="740" rx="30" ry="11" transform="rotate(20 920 740)"/></g>
+</svg>

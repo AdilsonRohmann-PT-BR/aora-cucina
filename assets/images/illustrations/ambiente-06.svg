@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ilustração conceitual de adega com garrafas e taças">
+  <defs>
+    <pattern id="r" width="90" height="90" patternUnits="userSpaceOnUse">
+      <circle cx="45" cy="45" r="34" fill="#3A2C20" stroke="#B58A5A" stroke-width="3"/>
+      <circle cx="45" cy="45" r="21" fill="#5A2A2A"/>
+      <circle cx="45" cy="45" r="8" fill="#2A1414"/>
+    </pattern>
+    <radialGradient id="g"><stop offset="0" stop-color="#F2D3A0" stop-opacity=".5"/><stop offset="1" stop-color="#F2D3A0" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="#29251F"/>
+  <circle cx="600" cy="360" r="480" fill="url(#g)"/>
+  <rect x="180" y="90" width="840" height="540" rx="10" fill="#6B5239"/>
+  <rect x="200" y="110" width="800" height="500" fill="#2A2018"/>
+  <rect x="200" y="110" width="800" height="500" fill="url(#r)"/>
+  <rect y="650" width="1200" height="250" fill="#4A3A2B"/>
+  <rect y="650" width="1200" height="4" fill="#B58A5A" opacity=".6"/>
+  <g fill="#F5F0E7" fill-opacity=".14" stroke="#F5F0E7" stroke-opacity=".65" stroke-width="2">
+    <path d="M300 640c0-70 12-110 30-110s30 40 30 110z" transform="translate(0 0)"/>
+    <path d="M820 640c0-70 12-110 30-110s30 40 30 110z"/>
+  </g>
+  <g fill="#7A2E2E"><path d="M308 600c2 24 10 40 22 40s20-16 22-40z"/><path d="M828 600c2 24 10 40 22 40s20-16 22-40z"/></g>
+  <g stroke="#F5F0E7" stroke-opacity=".65" stroke-width="3"><path d="M330 640V740M850 640V740"/></g>
+  <g fill="none" stroke="#F5F0E7" stroke-opacity=".65" stroke-width="2"><ellipse cx="330" cy="745" rx="36" ry="8"/><ellipse cx="850" cy="745" rx="36" ry="8"/></g>
+  <g fill="#343B2D"><rect x="520" y="560" width="50" height="170" rx="12"/><rect x="535" y="500" width="20" height="70" rx="5"/><rect x="600" y="580" width="50" height="150" rx="12"/><rect x="615" y="520" width="20" height="70" rx="5"/></g>
+</svg>
